@@ -4,7 +4,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import User from './components/User/User';
+import User from './components/products/product';
 import PaginaNoEncontrada from './components/PaginaNoEncontrada/PaginaNoEncontrada';
 
 
@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={User} />
-        <Route exact path="/users" component={User}/>
+        <Route exact path="/products" component={User}/>
         <Route component={PaginaNoEncontrada} />
       </Switch>
     </BrowserRouter>
