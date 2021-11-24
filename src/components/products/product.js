@@ -9,13 +9,13 @@ import {
   FormGroup,
   ModalFooter,
 } from "reactstrap";
-
+// ESTA quemada en estos campos
 const data = [
-  { id: 1, email: "homero.simpson@gmail.com", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "Homero", lastName: "Simpson" },
-  { id: 2, email: "bart.simpson@gmail.com", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "Bart", lastName: "Simpson" },
-  { id: 3, email: "marge.simpson@gmail.com", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "Marge", lastName: "Simpson" },
-  { id: 4, email: "lisa.simpson@gmail.com", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "Lisa", lastName: "Simpson" },
-  { id: 5, email: "maggy.simpson@gmail.com", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "Maggy", lastName: "Simpson" }
+  { id: 1, email: "product", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "product", lastName: "" },
+  { id: 2, email: "product", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "product", lastName: "" },
+  { id: 3, email: "product", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "product", lastName: "" },
+  { id: 4, email: "product", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "product", lastName: "" },
+  { id: 5, email: "product", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "product", lastName: "" }
 ];
 
 class User extends React.Component {
