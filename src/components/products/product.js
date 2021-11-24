@@ -11,11 +11,11 @@ import {
 } from "reactstrap";
 // ESTA quemada en estos campos
 const data = [
-  { id: 1, email: "product", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "product", lastName: "" },
-  { id: 2, email: "product", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "product", lastName: "" },
-  { id: 3, email: "product", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "product", lastName: "" },
-  { id: 4, email: "product", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "product", lastName: "" },
-  { id: 5, email: "product", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "product", lastName: "" }
+  { id: 1, reference: "product", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "product", lastName: "" },
+  { id: 2, reference: "product", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "product", lastName: "" },
+  { id: 3, reference: "product", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "product", lastName: "" },
+  { id: 4, reference: "product", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "product", lastName: "" },
+  { id: 5, reference: "product", phoneNumber: "12345667", address: "Av Simpre Viva 123", firstName: "product", lastName: "" }
 ];
 
 class User extends React.Component {
@@ -123,12 +123,12 @@ class User extends React.Component {
           <Table>
             <thead>
               <tr>
-                <th>Email</th>
-                <th>Nombre</th>
-                <th>Apellido</th>
-                <th>Dirección</th>
-                <th>Telefóno</th>
-                <th>Acción</th>
+                <th>Country</th>
+                <th>Reference</th>
+                <th>Description</th>
+                <th>Dirección_store</th>
+                <th>Price</th>
+                <th>Edit</th>
               </tr>
             </thead>
 
